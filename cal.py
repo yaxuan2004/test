@@ -9,7 +9,7 @@ class mycal():
     def set_tk(self):
         tk.title('小小计算器')
         
-        self.input_label=tkinter.Label(tk,text='请你输入算式：')    
+        self.input_label=tkinter.Label(tk,text='请您输入算式：')    
         self.input_label.grid(row=0,column=0)
         # self.input_label.pack(side=tkinter.LEFT)
         self.input_entry=tkinter.Entry(tk,bd=5,width=25)
