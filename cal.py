@@ -9,7 +9,7 @@ class mycal():
     def set_tk(self):
         tk.title('小小计算器')
         
-        self.input_label=tkinter.Label(tk,text='请输入算式：')    
+        self.input_label=tkinter.Label(tk,text='请你输入算式：')    
         self.input_label.grid(row=0,column=0)
         # self.input_label.pack(side=tkinter.LEFT)
         self.input_entry=tkinter.Entry(tk,bd=5,width=25)
@@ -27,7 +27,7 @@ class mycal():
         # self.cal_button.pack()
     #encoding=utf-8
 
-    def is_number(self,s):
+    def is_number(self,s):#判断结果是否为数字
         
         if s[0]=="-":
                 s=s[1:]
